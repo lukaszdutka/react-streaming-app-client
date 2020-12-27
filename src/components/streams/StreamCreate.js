@@ -6,10 +6,7 @@ class StreamCreate extends React.Component {
 
   renderInput(formProps) {
     console.log(formProps)
-    return <input
-      onChange={formProps.input.onChange}
-      value={formProps.input.value}
-    />
+    return <input {...formProps.input}/>
   };
 
   render() {
