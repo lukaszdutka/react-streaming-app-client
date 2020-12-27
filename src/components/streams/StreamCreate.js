@@ -4,9 +4,9 @@ import {Field, reduxForm} from 'redux-form';
 
 class StreamCreate extends React.Component {
 
-  renderInput(formProps) {
-    console.log(formProps)
-    return <input {...formProps.input}/>
+  renderInput({input}) {
+    console.log(input)
+    return <input {...input}/>
   };
 
   render() {
