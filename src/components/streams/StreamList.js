@@ -2,6 +2,7 @@ import React from "react";
 import {fetchStreams} from '../../actions/index'
 import {connect} from "react-redux";
 import {Link} from "react-router-dom";
+import {deleteStream} from "../../actions";
 
 
 class StreamList extends React.Component {
